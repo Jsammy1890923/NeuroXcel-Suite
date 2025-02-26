@@ -13,7 +13,6 @@
             font-family: 'Orbitron', sans-serif;
             text-align: center;
             padding: 20px;
-            overflow: hidden;
         }
 
         h1 {
@@ -71,25 +70,61 @@
             font-size: 1rem;
             color: #888;
         }
+
+        .nav-bar {
+            margin-bottom: 20px;
+        }
+
+        .nav-bar a {
+            color: cyan;
+            text-decoration: none;
+            font-size: 1.2rem;
+            margin: 0 15px;
+        }
+
+        .nav-bar a:hover {
+            text-shadow: 0 0 10px cyan;
+        }
     </style>
 </head>
 <body>
+
+    <div class="nav-bar">
+        <a href="index.html">Home</a> |
+        <a href="projects.html">Projects</a> |
+        <a href="about.html">About</a>
+    </div>
 
     <h1>Digital Spring Collection</h1>
     <p>Showcasing the latest AI-inspired spring designs.</p>
 
     <div class="gallery">
         <div class="ai-card">
-            <img src="Elias.JPG" alt="Elias AI">
-            <p>Elias - The Visionary</p>
+            <a href="elias.html">
+                <img src="Elias.JPG" alt="Elias AI">
+            </a>
+            <p><a href="elias.html" style="color: cyan; text-decoration: none;">Elias - The Visionary</a></p>
         </div>
+
         <div class="ai-card">
-            <img src="Edith.jpeg" alt="Edith AI">
-            <p>Edith - The Innovator</p>
+            <a href="edith.html">
+                <img src="Edith.jpeg" alt="Edith AI">
+            </a>
+            <p><a href="edith.html" style="color: cyan; text-decoration: none;">Edith - The Innovator</a></p>
         </div>
+
         <div class="ai-card">
-            <img src="Viper.jpeg" alt="Viper AI">
-            <p>Viper - The Disruptor</p>
+            <a href="viper.html">
+                <img src="Viper.jpeg" alt="Viper AI">
+            </a>
+            <p><a href="viper.html" style="color: cyan; text-decoration: none;">Viper - The Disruptor</a></p>
+        </div>
+
+        <div class="ai-card">
+            <a href="aureus.html">
+                <img src="Aureus_Ultimate_AI_Assistant.JPG" alt="Aureus AI">
+            </a>
+            <p><a href="aureus.html" style="color: cyan; text-decoration: none;">Aureus - The Ultimate AI Assistant</a></p>
         </div>
     </div>
 

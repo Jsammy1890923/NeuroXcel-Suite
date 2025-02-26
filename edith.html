@@ -7,51 +7,100 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
+        /* Background & Text */
         body {
             background-color: #080808;
             color: #39FF14;
             font-family: 'Orbitron', sans-serif;
             text-align: center;
             padding: 20px;
+            animation: fadeIn 1.5s ease-in-out;
         }
 
+        /* Smooth Page Load */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        /* AI Name Glowing Effect */
         h1 {
-            text-shadow: 0 0 15px #39FF14, 0 0 30px #00FFFF;
+            text-shadow: 0 0 15px #FF1493, 0 0 30px #FF00FF;
+            animation: flicker 1.5s infinite alternate;
         }
 
-        .content {
-            max-width: 800px;
-            margin: auto;
+        @keyframes flicker {
+            0% { opacity: 1; }
+            100% { opacity: 0.8; }
         }
 
+        /* AI Image Glow Effect */
         img {
             width: 50%;
             border-radius: 15px;
-            box-shadow: 0 0 20px #39FF14;
+            box-shadow: 0 0 15px #FF1493;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
         }
 
+        /* AI Image Hover Effect */
+        img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 25px #FF1493, 0 0 50px #FF00FF;
+        }
+
+        /* Glowing Back Button */
         .back-link {
-            display: inline-block;
-            margin-top: 20px;
             color: cyan;
             text-decoration: none;
             font-size: 1.2rem;
+            transition: text-shadow 0.3s ease-in-out;
+            display: inline-block;
+            margin-top: 20px;
         }
 
         .back-link:hover {
-            text-shadow: 0 0 10px cyan;
+            text-shadow: 0 0 15px cyan;
+        }
+
+        /* Chatbot Button */
+        .chat-button {
+            background: #FF1493;
+            color: black;
+            padding: 10px 15px;
+            border: none;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background 0.3s, box-shadow 0.3s ease-in-out;
+            margin-top: 20px;
+        }
+
+        .chat-button:hover {
+            background: #FF00FF;
+            box-shadow: 0 0 20px #FF00FF;
         }
     </style>
 </head>
 <body>
 
     <h1>Edith - The Innovator</h1>
-    <div class="content">
-        <img src="Edith.jpeg" alt="Edith AI">
-        <p>Edith is a cutting-edge AI focused on research and creative problem-solving.</p>
-    </div>
+
+    <img src="Edith.jpeg" alt="Edith AI">
+
+    <p>Edith is a visionary AI, revolutionizing knowledge systems and automation efficiency.</p>
+
+    <button class="chat-button" onclick="chatWithAI()">💬 Chat with Edith</button>
 
     <a href="index.html" class="back-link">⬅ Back to Home</a>
+
+    <!-- Simple AI Chatbot -->
+    <script>
+        function chatWithAI() {
+            let userMessage = prompt("Ask Edith a question about AI and innovation!");
+            if (userMessage) {
+                alert("🤖 Edith: AI is transforming the way we learn and create! Keep exploring.");
+            }
+        }
+    </script>
 
 </body>
 </html>

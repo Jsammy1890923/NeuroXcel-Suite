@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Spring Collection</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+        body {
+            background-color: #080808;
+            color: #39FF14;
+            font-family: 'Orbitron', sans-serif;
+            text-align: center;
+            padding: 20px;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 3rem;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px #39FF14, 0 0 30px #00FFFF;
+            animation: flicker 1.5s infinite alternate;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #00FFFF;
+            text-shadow: 0 0 10px #00FFFF;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .ai-card {
+            background: rgba(0, 0, 0, 0.2);
+            border: 2px solid #39FF14;
+            border-radius: 15px;
+            padding: 15px;
+            width: 220px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .ai-card:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px #39FF14, 0 0 30px #00FFFF;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        @keyframes flicker {
+            0% { opacity: 1; }
+            100% { opacity: 0.8; }
+        }
+
+        .footer {
+            margin-top

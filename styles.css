@@ -134,11 +134,62 @@ header p {
     box-shadow: 0 0 15px #00FFFF, 0 0 30px #00FFFF;
 }
 
-/* Adjusted Spacing for Sections */
-.container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 100px 20px 40px;
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode .navbar {
+    background: rgba(255, 255, 255, 0.9);
+    border-bottom: 2px solid #FF007F;
+}
+
+.dark-mode .navbar ul li a {
+    color: black;
+}
+
+.dark-mode .navbar ul li a:hover {
+    color: #FF007F;
+    text-shadow: 0 0 10px #FF007F;
+}
+
+.dark-mode .bot {
+    background: rgba(255, 255, 255, 0.8);
+    border: 2px solid #FF007F;
+    box-shadow: 0 0 15px #FF007F;
+}
+
+.dark-mode .bot h3 {
+    color: black;
+}
+
+.dark-mode .bot p {
+    color: black;
+}
+
+/* AI Chatbot */
+#aiChatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.9);
+    border: 2px solid #00FFFF;
+    box-shadow: 0 0 15px #00FFFF;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+#chatInput {
+    width: 80%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #00FFFF;
+    border-radius: 5px;
+    background: black;
+    color: white;
 }
 
 /* Mobile Adjustments */

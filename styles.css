@@ -1,26 +1,33 @@
-/* Styles for Digital Spring Collection */
+/* Styles for NeuroXcel AI Suite */
 body {
     background-color: black;
     color: white;
     font-family: 'Orbitron', sans-serif;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
+/* Container for content */
 .container {
     max-width: 1200px;
     margin: auto;
     padding: 20px;
 }
 
-h1 {
+/* Header Styles */
+header h1 {
     color: #00FFFF;
-    text-shadow: 0 0 10px #00FFFF;
+    text-shadow: 0 0 15px #00FFFF;
+    font-size: 2.5em;
 }
 
-p {
+header p {
     color: #FF007F;
+    font-size: 1.2em;
 }
 
+/* AI Bot Section */
 .ai-bots {
     display: flex;
     flex-wrap: wrap;
@@ -29,31 +36,48 @@ p {
     margin-top: 30px;
 }
 
+/* AI Assistant Cards */
 .bot {
-    background: rgba(255, 0, 127, 0.2);
-    border: 2px solid #FF007F;
-    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid #00FFFF;
+    box-shadow: 0 0 15px #00FFFF;
+    width: 280px;
     padding: 15px;
-    width: 300px;
-    text-align: center;
-    box-shadow: 0 0 15px #FF007F;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
+.bot:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #FF007F;
+}
+
+/* Images */
 .bot img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
-h3 {
+/* Titles */
+.bot h3 {
     color: #00FFFF;
-    text-shadow: 0 0 10px #00FFFF;
+    margin-top: 10px;
 }
 
-footer {
-    margin-top: 50px;
-    padding: 20px;
-    background: #111;
-    color: #00FFFF;
-    text-shadow: 0 0 10px #00FFFF;
+/* Text */
+.bot p {
+    font-size: 0.9em;
+    color: white;
 }
 
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .ai-bots {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bot {
+        width: 90%;
+    }
+}

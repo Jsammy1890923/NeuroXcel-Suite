@@ -8,6 +8,9 @@
 </head>
 <body>
 
+    <!-- Dark Mode Toggle -->
+    <button id="darkModeToggle" class="button">Toggle Dark Mode</button>
+
     <!-- Navigation Bar -->
     <nav class="navbar">
         <ul>
@@ -18,3 +21,51 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <header>
+            <h1>NeuroXcel AI Suite</h1>
+            <p>Revolutionizing AI Assistance Across Multiple Fields.</p>
+        </header>
+
+        <!-- AI Assistants Section -->
+        <section class="ai-bots">
+            <a href="NeuroXcel.html">
+                <div class="bot">
+                    <img src="images/NeuroXcel.jpg" alt="NeuroXcel - The Learning Accelerator">
+                    <h3>NeuroXcel - The AI Learning Accelerator</h3>
+                    <p>Advanced AI tutor that personalizes study guides, optimizes retention, and enhances learning for all styles.</p>
+                </div>
+            </a>
+
+            <a href="NeuroEdit.html">
+                <div class="bot">
+                    <img src="images/NeuroEdit.jpg" alt="NeuroEdit - The Writing Expert">
+                    <h3>NeuroEdit - The AI Writing & Editing Genius</h3>
+                    <p>AI-powered editor that refines, enhances, and formats your writing for maximum impact.</p>
+                </div>
+            </a>
+
+            <a href="Viper.html">
+                <div class="bot">
+                    <img src="images/Viper.jpg" alt="Viper - AI Business Automation">
+                    <h3>Viper - AI-Powered Business & Automation</h3>
+                    <p>Streamlines workflows, automates tasks, and optimizes business operations for efficiency and growth.</p>
+                </div>
+            </a>
+        </section>
+    </div>
+
+    <!-- AI Assistant Chatbot -->
+    <div id="aiChatbot">
+        <p>👋 Ask me anything!</p>
+        <input type="text" id="chatInput" placeholder="Type a question..." />
+        <button onclick="askAI()" class="button">Send</button>
+        <p id="chatResponse"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

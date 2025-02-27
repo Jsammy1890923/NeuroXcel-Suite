@@ -4,151 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Spring Collection</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
-
-        /* Background Color */
-        body {
-            background-color: #080808; /* Black Background */
-            color: #39FF14;
-            font-family: 'Orbitron', sans-serif;
-            text-align: center;
-            padding: 20px;
-            animation: fadeIn 1.5s ease-in-out;
-        }
-
-        /* Smooth Page Load Animation */
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-
-        h1 {
-            font-size: 3rem;
-            text-transform: uppercase;
-            text-shadow: 0 0 15px #39FF14, 0 0 30px #00FFFF;
-            animation: flicker 1.5s infinite alternate;
-        }
-
-        p {
-            font-size: 1.2rem;
-            color: #00FFFF;
-            text-shadow: 0 0 10px #00FFFF;
-            transition: text-shadow 0.3s ease-in-out;
-        }
-
-        /* Glowing Text Effect */
-        h1:hover, p:hover {
-            text-shadow: 0 0 20px #39FF14, 0 0 40px #00FFFF;
-        }
-
-        .gallery {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
-            margin-top: 30px;
-        }
-
-        .ai-card {
-            background: rgba(0, 0, 0, 0.2);
-            border: 2px solid #39FF14;
-            border-radius: 15px;
-            padding: 15px;
-            width: 220px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        /* AI Card Hover Glow Effect */
-        .ai-card:hover {
-            transform: scale(1.1);
-            box-shadow: 0 0 15px #39FF14, 0 0 30px #00FFFF;
-        }
-
-        img {
-            width: 100%;
-            border-radius: 10px;
-            transition: transform 0.3s ease-in-out;
-        }
-
-        /* Image Hover Zoom Effect */
-        img:hover {
-            transform: scale(1.05);
-        }
-
-        @keyframes flicker {
-            0% { opacity: 1; }
-            100% { opacity: 0.8; }
-        }
-
-        .footer {
-            margin-top: 50px;
-            font-size: 1rem;
-            color: #888;
-        }
-
-        /* Navigation Bar */
-        .nav-bar {
-            margin-bottom: 20px;
-        }
-
-        .nav-bar a {
-            color: cyan;
-            text-decoration: none;
-            font-size: 1.2rem;
-            margin: 0 15px;
-            transition: text-shadow 0.3s ease-in-out;
-        }
-
-        .nav-bar a:hover {
-            text-shadow: 0 0 10px cyan;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <div class="nav-bar">
-        <a href="index.html">Home</a> |
-        <a href="projects.html">Projects</a> |
-        <a href="about.html">About</a>
+    <div class="container">
+        <header>
+            <h1>DIGITAL SPRING COLLECTION</h1>
+            <p>Revolutionizing AI Assistance Across Multiple Fields.</p>
+        </header>
+        
+        <section class="ai-bots">
+            <div class="bot">
+                <img src="images/NeuroXcel.jpg" alt="NeuroXcel - The Learning Accelerator">
+                <h3>NeuroXcel - The AI Learning Accelerator</h3>
+                <p>Advanced AI tutor that personalizes study guides, optimizes retention, and enhances learning for all styles.</p>
+            </div>
+            <div class="bot">
+                <img src="images/NeuroEdit.jpg" alt="NeuroEdit - The Writing Expert">
+                <h3>NeuroEdit - The AI Writing & Editing Genius</h3>
+                <p>AI-powered editor and content assistant that refines, enhances, and formats your writing for maximum impact.</p>
+            </div>
+            <div class="bot">
+                <img src="images/viper.jpg" alt="Viper - The Automation Strategist">
+                <h3>Viper - AI-Powered Business & Automation</h3>
+                <p>Streamlines workflows, automates tasks, and optimizes business operations for efficiency and growth.</p>
+            </div>
+            <div class="bot">
+                <img src="images/aureus.jpg" alt="Aureus - The AI Innovator">
+                <h3>Aureus - The Ultimate AI Assistant</h3>
+                <p>All-in-one AI assistant for research, problem-solving, strategic planning, and advanced analytics.</p>
+            </div>
+            <div class="bot">
+                <img src="images/neurosync.jpg" alt="NeuroSync - The AI Productivity Enhancer">
+                <h3>NeuroSync - AI Productivity Enhancer</h3>
+                <p>AI-driven focus optimization, habit tracking, and performance enhancement tailored to your work style.</p>
+            </div>
+            <div class="bot">
+                <img src="images/legalresolve.jpg" alt="LegalResolve - The AI Legal Researcher">
+                <h3>LegalResolve - AI-Powered Legal Assistant</h3>
+                <p>AI-driven legal research, document automation, and compliance assistance for professionals.</p>
+            </div>
+        </section>
+        
+        <footer>
+            <p>© <script>document.write(new Date().getFullYear());</script> Digital Spring Collection. All rights reserved.</p>
+        </footer>
     </div>
-
-    <h1>Digital Spring Collection</h1>
-    <p>Showcasing the latest AI-inspired spring designs.</p>
-
-    <div class="gallery">
-        <div class="ai-card">
-            <a href="elias.html">
-                <img src="Elias.JPG" alt="Elias AI">
-            </a>
-            <p><a href="elias.html" style="color: cyan; text-decoration: none;">Elias - The Visionary</a></p>
-        </div>
-
-        <div class="ai-card">
-            <a href="edith.html">
-                <img src="Edith.jpeg" alt="Edith AI">
-            </a>
-            <p><a href="edith.html" style="color: cyan; text-decoration: none;">Edith - The Innovator</a></p>
-        </div>
-
-        <div class="ai-card">
-            <a href="viper.html">
-                <img src="Viper.jpeg" alt="Viper AI">
-            </a>
-            <p><a href="viper.html" style="color: cyan; text-decoration: none;">Viper - The Disruptor</a></p>
-        </div>
-
-        <div class="ai-card">
-            <a href="aureus.html">
-                <img src="Aureus_Ultimate_AI_Assistant.JPG" alt="Aureus AI">
-            </a>
-            <p><a href="aureus.html" style="color: cyan; text-decoration: none;">Aureus - The Ultimate AI Assistant</a></p>
-        </div>
-    </div>
-
-    <div class="footer">
-        <p>&copy; 2024 Digital Spring Collection. All rights reserved.</p>
-    </div>
-
 </body>
 </html>
+

@@ -1,4 +1,4 @@
-# 🚀 NeuroXcel AI Assistants - Revolutionizing AI Automation
+# 🚀 NeuroXcel-Suite - Revolutionizing AI Automation
 
 ![NeuroXcel AI Banner](branding/banner.png)
 
@@ -21,15 +21,15 @@ NeuroXcel AI Assistants provide cutting-edge AI solutions for **learning, busine
 ## 📌 Installation & Setup
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/neuroxcel-ai.git
-cd neuroxcel-ai
+git clone https://github.com/yourusername/neuroxcel-suite.git
+cd neuroxcel-suite
 
 # Run the setup script
 bash setup.sh
 ```
 
 ## 📖 Documentation
-For detailed guides, visit the `/docs` folder or check our [Wiki](https://github.com/yourusername/neuroxcel-ai/wiki).
+For detailed guides, visit the `/docs` folder or check our [Wiki](https://github.com/yourusername/neuroxcel-suite/wiki).
 
 ## 📈 Roadmap
 - **Q1:** Beta testing & user feedback

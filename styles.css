@@ -47,19 +47,22 @@ body {
 .container {
     max-width: 1200px;
     margin: auto;
-    padding: 80px 20px 20px;
+    padding: 100px 20px 40px;
 }
 
 /* Header Styles */
 header h1 {
     color: #00FFFF;
     text-shadow: 0 0 15px #00FFFF;
-    font-size: 2.8em;
+    font-size: 3em;
+    letter-spacing: 1.5px;
 }
 
 header p {
     color: #FF007F;
-    font-size: 1.3em;
+    font-size: 1.4em;
+    max-width: 800px;
+    margin: auto;
 }
 
 /* AI Assistants Section */
@@ -76,9 +79,9 @@ header p {
     background: rgba(0, 0, 0, 0.8);
     border: 2px solid #00FFFF;
     box-shadow: 0 0 15px #00FFFF;
-    width: 300px;
-    padding: 20px;
-    border-radius: 12px;
+    width: 320px;
+    padding: 25px;
+    border-radius: 15px;
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
 }
@@ -104,16 +107,16 @@ header p {
 
 /* Description */
 .bot p {
-    font-size: 1em;
+    font-size: 1.1em;
     color: white;
     line-height: 1.5;
 }
 
-/* Buttons */
+/* Animated Buttons */
 .button {
     display: inline-block;
     padding: 12px 20px;
-    margin-top: 10px;
+    margin-top: 15px;
     border: 2px solid #00FFFF;
     background: transparent;
     color: #00FFFF;
@@ -121,20 +124,27 @@ header p {
     font-weight: bold;
     border-radius: 8px;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
 }
 
 .button:hover {
     background: #00FFFF;
     color: black;
-    box-shadow: 0 0 15px #00FFFF;
+    box-shadow: 0 0 15px #00FFFF, 0 0 30px #00FFFF;
 }
 
-/* Responsive Design */
+/* Adjusted Spacing for Sections */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 20px 40px;
+}
+
+/* Mobile Adjustments */
 @media screen and (max-width: 768px) {
-    .ai-bots {
-        flex-direction: column;
-        align-items: center;
+    .container {
+        padding: 80px 15px;
     }
 
     .bot {

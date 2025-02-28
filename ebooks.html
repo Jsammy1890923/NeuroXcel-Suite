@@ -4,16 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NeuroXcel Digital Library</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="NeuroXcel-styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+        body {
+            background-color: #0a0a0a;
+            color: #39FF14;
+            font-family: 'Orbitron', sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .neon-title {
+            font-size: 3rem;
+            text-shadow: 0 0 15px #00FFFF, 0 0 30px #39FF14;
+        }
+
+        .neon-subtitle {
+            font-size: 1.5rem;
+            color: #FFD700;
+            text-shadow: 0 0 10px #FFD700;
+        }
+
+        .bookshelf {
+            margin-top: 40px;
+        }
+
+        .shelf {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .book {
+            background: rgba(0, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px #00FFFF;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .book:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 25px #39FF14, 0 0 50px #00FFFF;
+        }
+
+        .book img {
+            width: 150px;
+            height: 220px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #FFD700;
+        }
+
+        .coming-soon .book {
+            opacity: 0.6;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1 class="neon-title">NeuroXcel Digital Library</h1>
+        <h1 class="neon-title">📚 NeuroXcel Digital Library</h1>
         <p class="neon-subtitle">Explore & Learn with Cutting-Edge Knowledge</p>
     </header>
 
     <section class="bookshelf">
-        <h2 class="section-title">📚 Available Now</h2>
+        <h2 class="section-title">🔹 Available Now</h2>
         <div class="shelf">
             <div class="book available">
                 <img src="images/mastering-python.jpg" alt="Mastering Python">
@@ -25,7 +82,6 @@
                 <h3>The Alkaline Awakening</h3>
                 <p>A Holistic Journey to Mind-Body Wellness</p>
             </div>
-            <!-- Add more books here -->
         </div>
     </section>
 

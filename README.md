@@ -1,53 +1,50 @@
-# 🚀 NeuroXcel-Suite - Revolutionizing AI Automation
+# 🚀 NeuroXcel Suite - AI-Powered Assistants
 
-![NeuroXcel AI Banner](branding/banner.png)
+## 📌 Overview
+NeuroXcel Suite is a collection of **cutting-edge AI assistants** designed to revolutionize learning, business automation, research, and productivity. Each assistant is tailored to perform specialized tasks, ensuring efficiency, intelligence, and ease of use.
 
-## 🌟 Overview
-NeuroXcel AI Assistants provide cutting-edge AI solutions for **learning, business automation, research, and productivity**. Designed for students, professionals, and enterprises, our AI enhances efficiency and innovation across multiple sectors.
+## 🛠️ AI Assistants in the Suite
+| **AI Assistant**        | **Function** |
+|-------------------------|--------------------------------------|
+| **NeuroAssist**        | AI-powered prompt engineering & advanced AI interactions |
+| **NeuroSync**          | AI for ebook writing & formatting |
+| **NeuroXcel-StudyBot** | AI-powered study assistant |
+| **NeuroTrader**        | AI for stock trading & market analysis |
+| **NeuroProfit**        | AI for monetization, business growth & passive income strategies |
+| **LegalResolve**       | AI-powered legal research assistant |
 
-## 🔹 Key Features
-- 🧠 **NeuroXcel** – AI-powered study guides & tutoring
-- ✍️ **NeuroEdit** – Automated content creation & editing
-- 🚀 **NeuroBizWiz** – AI-driven business workflow optimization
-- 📊 **NeuroAssistant** – Advanced research & analytics assistant
-- ⏳ **NeuroSync** – AI-powered time & habit management
-- ⚖️ **LegalResolve** – AI-driven legal research & compliance
+## 🎨 Branding & Design Guide
+For a complete overview of **branding, UI standards, and marketing strategies**, refer to the official **[NeuroXcel Style Guide](docs/NeuroXcel-Style-Guide.md)**.
 
-## 🎨 Branding & Visual Identity
-- **Primary Colors:** Deep Blue `#001f3f`, Bright Blue `#0074D9`, Neon Green `#39FF14`
-- **Typography:** Orbitron (Headings), Montserrat (Body Text)
-- **Logo:** ![NeuroXcel AI Logo](branding/logo.png)
+## 🔹 Features
+- **AI-Powered Efficiency** - Automate complex tasks with AI-driven solutions.
+- **Seamless Integration** - Works across platforms and industries.
+- **User-Friendly Interfaces** - Intuitive design for maximum usability.
+- **Continuous Learning** - AI adapts and improves over time.
 
-## 📌 Installation & Setup
+## 📖 Installation & Usage
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/neuroxcel-suite.git
-cd neuroxcel-suite
-
-# Run the setup script
-bash setup.sh
+git clone https://github.com/yourusername/NeuroXcel-Suite.git
+cd NeuroXcel-Suite
 ```
-
-## 📖 Documentation
-For detailed guides, visit the `/docs` folder or check our [Wiki](https://github.com/yourusername/neuroxcel-suite/wiki).
-
-## 📈 Roadmap
-- **Q1:** Beta testing & user feedback
-- **Q2:** Official launch & marketing campaign
-- **Q3:** AI feature enhancements & multi-language support
-- **Q4:** API development & enterprise integration
+For specific assistant usage, refer to individual directories.
 
 ## 🤝 Contribution Guide
-1. Fork the repository & clone it locally.
+1. Fork the repository.
 2. Create a feature branch (`git checkout -b feature-branch`).
-3. Commit changes & push to GitHub (`git push origin feature-branch`).
-4. Submit a pull request for review.
+3. Commit changes (`git commit -m "Added new feature"`).
+4. Push to GitHub (`git push origin feature-branch`).
+5. Submit a pull request for review.
 
-## 📬 Contact & Community
-- ✉️ Email: support@neuroxcelai.com
-- 🌍 Website: [neuroxcelai.com](https://neuroxcelai.com)
+## 📢 Contact & Community
+- 🌍 Website: [NeuroXcel AI](https://neuroxcel.com)
 - 🐦 Twitter: [@NeuroXcelAI](https://twitter.com/NeuroXcelAI)
-- 📢 Join Our Slack: [NeuroXcel AI Community](https://neuroxcelai.com/slack)
+- 📧 Email: support@neuroxcel.com
 
-## 🏆 Acknowledgments
-Special thanks to our contributors, beta testers, and AI enthusiasts for supporting NeuroXcel AI’s growth! 🚀
+## 📜 License
+This project is licensed under the MIT License - see the `LICENSE` file for details.
+
+---
+💡 **Stay ahead with NeuroXcel - The Future of AI Automation!** 🚀
+

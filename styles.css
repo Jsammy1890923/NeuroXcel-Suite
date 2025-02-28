@@ -1,8 +1,10 @@
 /* NeuroXcel AI - Futuristic Styles */
 
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
 body {
-    background-color: #000814;
-    color: #ffffff;
+    background-color: #0b0e14;
+    color: #e0e0e0;
     font-family: 'Orbitron', sans-serif;
     text-align: center;
     margin: 0;
@@ -47,10 +49,51 @@ p {
 
 section {
     padding: 50px 20px;
+    margin-bottom: 40px;
 }
 
 footer {
     padding: 20px;
     background-color: #001f3f;
     font-size: 1em;
+}
+
+/* Bookshelf Styling */
+.bookshelf {
+    margin-top: 40px;
+}
+
+.shelf {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background: rgba(20, 25, 40, 0.5);
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 174, 239, 0.3);
+}
+
+.book {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 174, 239, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.book:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 174, 239, 0.5);
+}
+
+.book img {
+    width: 160px;
+    height: 230px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+.coming-soon .book {
+    opacity: 0.7;
 }

@@ -7,7 +7,7 @@ NeuroXcel Suite is a collection of **cutting-edge AI assistants** designed to re
 | **AI Assistant**        | **Function** |
 |-------------------------|--------------------------------------|
 | **NeuroAssist**        | AI-powered prompt engineering & advanced AI interactions |
-| **NeuroSync**          | AI for ebook writing & formatting |
+| **NeuroSync**          | AI for ebook writing, editing, formatting, and publishing preparation |
 | **NeuroXcel-StudyBot** | AI-powered study assistant |
 | **NeuroTrader**        | AI for stock trading & market analysis |
 | **NeuroProfit**        | AI for monetization, business growth & passive income strategies |
@@ -40,7 +40,7 @@ For specific assistant usage, refer to individual directories.
 ## 📢 Contact & Community
 - 🌍 Website: [NeuroXcel AI](https://neuroxcel.com)
 - 🐦 Twitter: [@NeuroXcelAI](https://twitter.com/NeuroXcelAI)
-- 📧 Email: support@neuroxcel.com
+- 📧 Email: support@NeuroXcel.com
 
 ## 📜 License
 This project is licensed under the MIT License - see the `LICENSE` file for details.
